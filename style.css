@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    line-height: 1.6;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Navegación */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e6f2ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li {
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* Secciones */
+  section, .contenedor {
+    background-color: #ffffff; /* caja blanca */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombrita */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #004080;
+  }
+  
+  /* Imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  /* Listas */
+  ul {
+    margin: 20px;
+    padding-left: 20px;
+  }
+  
+  ul.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.galeria li {
+    margin: 10px;
+  }
+  
+  /* Tablas */
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #004080;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
